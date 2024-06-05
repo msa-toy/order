@@ -7,3 +7,5 @@
 /ssl_zip_file
 !gradle/wrapper/gradle-wrapper.jar
 .idea
+
+docker-compose/mysql

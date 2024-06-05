@@ -1,0 +1,14 @@
+server:
+  shutdown: graceful
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/order?serverTimezone=UTC&characterEncoding=UTF-8
+    username: order-user
+    password: order-pass
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
