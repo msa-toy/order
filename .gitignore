@@ -1,0 +1,9 @@
+.gradle
+/build/
+*/build/
+*/logs/
+*/out/
+/ssl_file
+/ssl_zip_file
+!gradle/wrapper/gradle-wrapper.jar
+.idea
